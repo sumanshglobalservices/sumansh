@@ -1,10 +1,27 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Contact Us | Sumansh Global Services</title><meta name="description" content="Sumansh Global Services - Empowering Workforce Solutions">
-<link rel="stylesheet" href="style.css"></head><body><header>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>Contact Us | Sumansh Global Services</title>
+
+<meta name="description" content="Sumansh Global Services - Empowering Workforce Solutions">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
 <div class="container nav">
-<a class="brand" href="index.html"><img src="logo.png" alt="SUMANSH"></a>
+
+<a class="brand" href="index.html">
+<img src="logo.png" alt="SUMANSH">
+</a>
+
 <button class="mobile-toggle" onclick="toggleMenu()">☰</button>
+
 <nav>
 <a href="index.html">Home</a>
 <a href="about.html">About Us</a>
@@ -12,28 +29,194 @@
 <a href="contact.html">Contact</a>
 <a class="btn" href="contact.html">Get in Touch</a>
 </nav>
+
 </div>
 </header>
-<section class="page-hero"><div class="container"><h1>Contact Us</h1><p>Let's discuss your manpower requirement.</p></div></section>
-<section class="section"><div class="container contact-grid">
-<div class="contact-box"><h2 class="section-title" style="font-size:30px">Get in Touch</h2>
-<div class="contact-item"><div class="icon">📞</div><div><b>Phone</b><span>+91 87506 99504</span></div></div>
-<div class="contact-item"><div class="icon">✉️</div><div><b>Email</b><span>info@sumansh.com</span></div></div>
-<div class="contact-item"><div class="icon">📍</div><div><b>Office</b><span>Sector 44, Gurugram, Haryana, India</span></div></div>
-<div class="contact-item"><div class="icon">🕘</div><div><b>Business Hours</b><span>Mon–Sat: 9:00 AM – 6:00 PM</span></div></div>
-</div>
-<div class="contact-box"><h2 class="section-title" style="font-size:30px">Send an Enquiry</h2>
-<form onsubmit="event.preventDefault(); alert('Thank you! This demo form is ready to connect to your email/form service.');">
-<input required placeholder="Your Name"><input type="email" required placeholder="Email Address"><input placeholder="Phone Number"><input placeholder="Company Name"><textarea required placeholder="Tell us your manpower requirement"></textarea><button class="btn" type="submit">Submit Enquiry</button>
-</form><p style="font-size:12px;color:#65748b;margin-top:10px">Demo form — connect it to your preferred form service before publishing.</p>
-</div></div></section>
-<footer>
+
+
+<section class="page-hero">
 <div class="container">
+<h1>Contact Us</h1>
+<p>Let's discuss your manpower requirement.</p>
+</div>
+</section>
+
+
+<section class="section">
+<div class="container contact-grid">
+
+
+<!-- Contact Information -->
+<div class="contact-box">
+
+<h2 class="section-title" style="font-size:30px">
+Get in Touch
+</h2>
+
+<div class="contact-item">
+<div class="icon">📞</div>
+<div>
+<b>Phone</b>
+<span>+91 87506 99504</span>
+</div>
+</div>
+
+<div class="contact-item">
+<div class="icon">✉️</div>
+<div>
+<b>Email</b>
+<span>sumanshglobalservices@gmail.com</span>
+</div>
+</div>
+
+<div class="contact-item">
+<div class="icon">📍</div>
+<div>
+<b>Office</b>
+<span>Sector 44, Gurugram, Haryana, India</span>
+</div>
+</div>
+
+<div class="contact-item">
+<div class="icon">🕘</div>
+<div>
+<b>Business Hours</b>
+<span>Mon–Sat: 9:00 AM – 6:00 PM</span>
+</div>
+</div>
+
+</div>
+
+
+<!-- Enquiry Form -->
+<div class="contact-box">
+
+<h2 class="section-title" style="font-size:30px">
+Send an Enquiry
+</h2>
+
+
+<form action="send-enquiry.php" method="POST">
+
+
+<input
+type="text"
+name="name"
+required
+placeholder="Your Name"
+autocomplete="name"
+>
+
+
+<input
+type="email"
+name="email"
+required
+placeholder="Email Address"
+autocomplete="email"
+>
+
+
+<input
+type="tel"
+name="phone"
+placeholder="Phone Number"
+autocomplete="tel"
+>
+
+
+<input
+type="text"
+name="company"
+placeholder="Company Name"
+autocomplete="organization"
+>
+
+
+<textarea
+name="message"
+required
+placeholder="Tell us your manpower requirement"
+></textarea>
+
+
+<button class="btn" type="submit">
+Submit Enquiry
+</button>
+
+
+</form>
+
+<p style="font-size:12px;color:#65748b;margin-top:10px">
+We will get back to you as soon as possible.
+</p>
+
+</div>
+
+</div>
+</section>
+
+
+<footer>
+
+<div class="container">
+
 <div class="footer-grid">
-<div><img src="logo.png" alt="Sumansh" style="width:180px;background:#fff;padding:7px;border-radius:8px"><p style="margin-top:14px">Empowering Workforce Solutions with reliable manpower and staffing support.</p></div>
-<div><h3>Quick Links</h3><a href="index.html">Home</a><a href="about.html">About Us</a><a href="services.html">Services</a><a href="contact.html">Contact</a></div>
-<div><h3>Contact</h3><p>+91 87506 99504</p><p>info@sumansh.com</p><p>Gurugram, Haryana, India</p></div>
+
+
+<div>
+
+<img
+src="logo.png"
+alt="Sumansh"
+style="width:180px;background:#fff;padding:7px;border-radius:8px"
+>
+
+<p style="margin-top:14px">
+Empowering Workforce Solutions with reliable manpower and staffing support.
+</p>
+
 </div>
-<div class="copyright">© 2026 Sumansh Global Services. All rights reserved. <span style="float:right">Demo contact details — replace before publishing.</span></div>
+
+
+<div>
+
+<h3>Quick Links</h3>
+
+<a href="index.html">Home</a>
+<a href="about.html">About Us</a>
+<a href="services.html">Services</a>
+<a href="contact.html">Contact</a>
+
 </div>
-</footer><script src="script.js"></script></body></html>
+
+
+<div>
+
+<h3>Contact</h3>
+
+<p>+91 87506 99504</p>
+<p>sumanshglobalservices@gmail.com</p>
+<p>Gurugram, Haryana, India</p>
+
+</div>
+
+
+</div>
+
+
+<div class="copyright">
+
+© 2026 Sumansh Global Services. All rights reserved.
+
+</div>
+
+</div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
